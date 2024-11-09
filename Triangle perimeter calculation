@@ -1,0 +1,21 @@
+#create a class named triangle
+#create an object from it the object will have
+#three attributes names a,b, and c that represent
+#the sides of the triangle
+#the triangle class will have two methods:
+#the init method to initialize the sides
+#a method to calculate the perimeter of the triangle from its sides
+#the perimeter of the triangle should be printed from outside the class
+class Triangle:
+    def __init__(self,a,b,c):
+        #write code here
+        self.a = a
+        self.b = b
+        self.c = c
+    def calculate_perimeter(self):
+        return self.a +self.b + self.c
+    #write code here
+ti = Triangle(3,4,5)
+perimeter = Triangle.calculate_perimeter(self=ti)
+print(f"The perimeter of the triangle is: {perimeter}")
+#write code here
